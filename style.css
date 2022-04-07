@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Archivo+Narrow&family=Balsamiq+Sans&family=Bebas+Neue&family=Satisfy&family=Source+Code+Pro:ital,wght@1,300&family=Staatliches&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    background-color:black;
+}
+.titles{
+    text-align:center;
+    margin-top:50px;
+}
+
+.titles h4{
+    margin-top:20px;
+    color:white;
+    font-family: 'Kite One', sans-serif;
+}
+.titles h4:hover{
+    font-size:20px;
+}
+.titles h1{
+    color:white;
+    font-family: 'Kite One', sans-serif;
+}
+.titles h1:hover{
+    font-size:40px;
+}
+.images img{
+    width:350px;
+    height:300px;
+    margin-left:25px;
+    margin-top:25px;
+    filter: grayscale(100);
+    border-radius:20px;
+}
+.images img:hover{
+    filter: grayscale(0);
+    transform:scale(1.2);
+}
